@@ -2,7 +2,7 @@ import { useCallback, useState } from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/dist/client/router';
 
-import { User } from '../types/api/user';
+import { User } from '../../types/api/user';
 import { useMessage } from './useMessage';
 
 export const useAuth = () => {
