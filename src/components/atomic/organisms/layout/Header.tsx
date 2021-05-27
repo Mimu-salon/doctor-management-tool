@@ -10,7 +10,7 @@ export const Header: VFC = memo(() => {
   return (
     <>
       <Flex as='nav' bg='teal.500' color='gray.50' align='center' justify='space-between'>
-        <Flex as='a' align='center' mr={8} _hover={{ cursor: 'pointer' }}>
+        <Flex align='center' mr={8} _hover={{ cursor: 'pointer' }}>
           <Heading fontSize={{ base: 'md', md: 'lg' }} p={{ base: 3, md: 5 }}>
             <Link href='/home' passHref><a>医師情報管理ツール</a></Link>
           </Heading>

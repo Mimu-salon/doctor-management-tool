@@ -23,7 +23,7 @@ const Login: VFC = memo(() => {
         <Stack spacing={6} py={4} px={10}>
           <Input placeholder='ユーザーID' value={userId} onChange={onChangeUserId} />
           <Input placeholder='パスワード' />
-          <PrimaryButton disabled={userId === ''} loading={loading} onClick={onClickLogin}>
+          <PrimaryButton background="teal.400" color="white" disabled={userId === ''} loading={loading} onClick={onClickLogin}>
             ログイン
           </PrimaryButton>
         </Stack>
